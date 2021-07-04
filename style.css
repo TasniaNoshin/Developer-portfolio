@@ -12,9 +12,9 @@ h1{
     color: blueviolet;
 }
 
-section{
+.flexible-container{ 
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
 }
 .half-width{
@@ -37,10 +37,44 @@ background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 
 }
+.experience-item{
+   
+    box-shadow: 14px 14px 40px rgb(112, 28, 112);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 8px;
+    
+
+}
+#web-dev-experience{
+    border-left: 7px solid teal;
+    border-image: linear-gradient(#bef63c, #0c829f);
+border-image-slice: 1;
+}
+
 
 
 .second-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+h2{
+    font-size: 35px;
+}
+.third-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-experience{
+    border-left: 7px solid rgb(15, 231, 148);
+    border-image: linear-gradient(#f63ced5d, #9f0c49);
+border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
